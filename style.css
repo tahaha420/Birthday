@@ -1,0 +1,40 @@
+body {
+    background-image: url(./celebratios.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+         background-repeat :no-repeat;
+}
+
+#age {
+    color: rgb(255, 224, 47);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#main {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 50px;
+    text-align: center;
+    border-radius: 100%;
+    
+    
+}
+
+#ageH {
+    color: aliceblue;
+}
+
+#birthdayH,
+#bdFooter{
+    color: aliceblue;
+}
+
+#birthday {
+    color: rgb(47, 255, 252);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

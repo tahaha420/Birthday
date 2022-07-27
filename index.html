@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Birthday </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <div id="main">
+        <form onsubmit="start() ; return false ;">
+            <input type="date" id="iDate">
+            <button type="submit"> START </button>
+        </form>
+
+        <div id="div1">
+
+            <h1 id="ageH"> Your age is : </h1>
+
+            <div id="age">
+
+                <div id="ageYears"></div>
+                <div id="ageMonths"></div>
+                <div id="ageDays"></div>
+                <div id="ageHours"></div>
+                <div id="ageMinutes"></div>
+                <div id="ageSeconds"></div>
+            </div>
+        </div>
+
+        <div id="div2">
+
+            <h1 id="birthdayH"> Your Next Birthday in : </h1>
+            <div id="birthday">
+                <div id="bDays"></div>
+                <div id="bHours"></div>
+                <div id="bMinutes"></div>
+                <div id="bSeconds"></div>
+
+            </div>
+          
+        </div>
+    </div>
+
+
+</body>
+
+</html>
